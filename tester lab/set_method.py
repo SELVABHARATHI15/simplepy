@@ -1,3 +1,4 @@
+# a = set(map(int,input("enter the values separate with (\",\") symbol:").split(",")))
 a ={1,2,3}
 b={2,3,4}
 print(a.union(b))
