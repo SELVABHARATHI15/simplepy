@@ -1,0 +1,18 @@
+a ={1,2,3}
+b={2,3,4}
+print(a.union(b))
+print(a.intersection(b))
+print(a.difference(b))
+print(a.symmetric_difference(b))
+print(a.issubset(b))
+a.add(5)
+print(a)
+a.remove(2)
+print(a)
+a.pop()
+print(a)
+c=set()
+c = a.copy()
+print(c)
+c.clear()
+print(a,b,c)
